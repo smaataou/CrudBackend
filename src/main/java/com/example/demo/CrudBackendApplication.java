@@ -19,8 +19,8 @@ public class CrudBackendApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		Article a1 = articleRepository.save(new Article("ljùh", "description1"));
-		Article a2 = articleRepository.save(new Article("ljùhjgff", "description2"));
+		Article a1 = articleRepository.save(new Article("Portable", "Samsung galaxy .."));
+		Article a2 = articleRepository.save(new Article("PC", "Lenovo"));
 
 		
 	}
